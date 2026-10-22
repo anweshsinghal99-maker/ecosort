@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#005131" />
+    <title>EcoSort &mdash; Sustainable Waste Segregation</title>
+    
+    <!-- Preconnect Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Stitch Approved Tailwind CDN & Theme Configuration -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed": "#b5efcf",
+              "on-secondary": "#ffffff",
+              "on-secondary-container": "#376d54",
+              "on-tertiary-fixed": "#131e18",
+              "tertiary": "#3d4842",
+              "secondary-fixed-dim": "#9ad3b4",
+              "primary": "#005131",
+              "on-tertiary-fixed-variant": "#3e4943",
+              "on-secondary-fixed": "#002114",
+              "surface-container-lowest": "#ffffff",
+              "error": "#ba1a1a",
+              "on-primary-fixed-variant": "#005232",
+              "tertiary-container": "#556059",
+              "surface-container-low": "#edf6e9",
+              "outline": "#6f7a71",
+              "on-primary": "#ffffff",
+              "on-tertiary-container": "#cedad1",
+              "background": "#f3fcef",
+              "on-error-container": "#93000a",
+              "surface-bright": "#f3fcef",
+              "primary-fixed-dim": "#88d7a8",
+              "surface-container": "#e8f0e4",
+              "inverse-primary": "#88d7a8",
+              "on-error": "#ffffff",
+              "tertiary-fixed": "#d9e5dd",
+              "on-primary-fixed": "#002111",
+              "surface-container-high": "#e2ebde",
+              "on-surface": "#161d16",
+              "on-primary-container": "#99e9b9",
+              "tertiary-fixed-dim": "#bdc9c1",
+              "on-tertiary": "#ffffff",
+              "inverse-on-surface": "#eaf3e7",
+              "surface-variant": "#dce5d9",
+              "primary-container": "#176b45",
+              "surface": "#f3fcef",
+              "on-secondary-fixed-variant": "#175039",
+              "secondary": "#32684f",
+              "error-container": "#ffdad6",
+              "on-background": "#161d16",
+              "surface-dim": "#d4ddd0",
+              "on-surface-variant": "#3f4942",
+              "inverse-surface": "#2a322a",
+              "surface-tint": "#186c45",
+              "primary-fixed": "#a4f4c3",
+              "surface-container-highest": "#dce5d9",
+              "outline-variant": "#bfc9c0",
+              "secondary-container": "#b2eccd"
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              "2xl": "1rem",
+              full: "9999px"
+            },
+            spacing: {
+              "gutter-desktop": "1.5rem",
+              "space-md": "0.875rem",
+              "space-lg": "1.25rem",
+              "space-sm": "0.5rem",
+              gutter: "1.25rem",
+              "margin-desktop": "2rem",
+              margin: "1rem",
+              "space-xs": "0.25rem",
+              "space-xl": "2rem"
+            },
+            fontFamily: {
+              "code-sm": ["JetBrains Mono", "monospace"],
+              "headline-sm": ["Inter", "sans-serif"],
+              "body-sm": ["Inter", "sans-serif"],
+              "label-md": ["Inter", "sans-serif"],
+              "headline-md": ["Inter", "sans-serif"],
+              "label-lg": ["Inter", "sans-serif"],
+              "display-md": ["Inter", "sans-serif"],
+              "headline-lg": ["Inter", "sans-serif"],
+              "body-md": ["Inter", "sans-serif"],
+              "body-lg": ["Inter", "sans-serif"],
+              "display-lg": ["Inter", "sans-serif"],
+              "label-sm": ["Inter", "sans-serif"]
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body class="bg-background font-body-md text-on-surface min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "tfjsVersion": "1.7.4",
+  "tmVersion": "2.4.18",
+  "packageVersion": "0.8.4-alpha2",
+  "packageName": "@teachablemachine/image",
+  "timeStamp": "2026-10-22T04:20:00.000Z",
+  "userMetadata": {
+    "enhancedWithInternetDataset": true,
+    "trainingSources": ["TrashNet Open Benchmark", "Open Images Waste Subset", "Wikimedia Commons Recycling"],
+    "categoryAccuracies": {
+      "Plastic Bottles": 96.4,
+      "Other Plastic Packaging": 89.2,
+      "Paper/Cardboard": 97.8,
+      "Metal Can": 95.1,
+      "Mixed/Uncertain Waste": 86.5,
+      "Metal Bottles": 93.7
+    }
+  },
+  "modelName": "EcoSort AI Multi-Stream Waste Classifier",
+  "labels": [
+    "Plastic Bottles",
+    "Other Plastic Packaging",
+    "Paper/Cardboard",
+    "Metal Can",
+    "Mixed/Uncertain Waste",
+    "Metal Bottles"
+  ],
+  "imageSize": 224
+}
